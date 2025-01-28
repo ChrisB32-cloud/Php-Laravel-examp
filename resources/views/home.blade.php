@@ -5,7 +5,14 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="border-[3px] border-black border-solid">
+    @auth
+    <p>Congratulations, you are logged in!</p>
+    <form action="/logout" method="POST">
+        @csrf
+        <button>Logout</button>
+    </form>
+    @else
+<div class="border-[3px] border-black border-solid">
         <h2>Register</h2>
         <form action="/register" method="post">
             @csrf
@@ -15,6 +22,19 @@
             <button>Register</button>
         </form>
     </div>
+    <div class="border-[3px] border-black border-solid">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            @csrf
+            <input name="name" type="text" placeholder="name">
+            <input name="email" type="text" placeholder="email">
+            <input name="password" type="password" placeholder="password">
+            <button>Register</button>
+        </form>
+    </div>
+@endauth
+
+    
  
 </body>
 </html>
