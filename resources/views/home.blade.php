@@ -13,8 +13,17 @@
             @csrf
             <button>Logout</button>
         </form>
+        <div class="border-2 border-indigo-500">
+            <h2>Create a new post</h2>
+            <form action="/create-post" method="post">
+                @csrf
+                <input name="title" type="text" placeholder="title">
+                <textarea name="content" id="" cols="30" rows="10" placeholder="content"></textarea>
+                <button>Save post</button>
+            </form>
+        </div>
     @else
-        <div class="border-[3px] border-black border-solid">
+        <div class="border-2 border-indigo-500">
             <h2>Register</h2>
             <form action="/register" method="post">
                 @csrf
@@ -24,7 +33,7 @@
                 <button>Register</button>
             </form>
         </div>
-        <div class="border-[3px] border-black border-solid">
+        <div class="border-2 border-indigo-500">
             <h2>Login</h2>
             <form action="/login" method="post">
                 @csrf
