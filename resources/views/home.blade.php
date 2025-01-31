@@ -52,26 +52,29 @@
                 <form action="/register" method="post" class="space-y-6">
                     @csrf
                     <div>
-                        <div>
-                            <label for="name" class="block font-medium text-gray-900 text-sm/6">User name</label>
-                            <div class="mt-2">
-                                <input name="name" type="text" placeholder="name"
-                                    class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                            </div>
+                        <label for="name" class="block font-medium text-gray-900 text-sm/6">User name</label>
+                        <div class="mt-2">
+                            <input name="name" type="text" placeholder="name"
+                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
                         </div>
-                        <div>
-                            <label for="email" class="block font-medium text-gray-900 text-sm/6">Email</label>
-                            <div>
-                                <input name="email" type="text" placeholder="email"
-                                    class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                            </div>
+                    </div>
+                    <div>
+                        <label for="email" class="block font-medium text-gray-900 text-sm/6">Email</label>
+                        <div class="mt-2">
+                            <input name="email" type="text" placeholder="email"
+                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
                         </div>
-                        <input name="password" type="password" placeholder="password"
-                            class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                        <div>
-                            <button
-                                class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Register</button>
+                    </div>
+                    <div>
+                        <label for="password" class="block font-medium text-gray-900 text-sm/6">Password</label>
+                        <div class="mt-2">
+                            <input name="password" type="password" placeholder="password"
+                                class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
                         </div>
+                    </div>
+                    <div>
+                        <button
+                            class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Register</button>
                     </div>
                 </form>
             </div>
@@ -79,26 +82,24 @@
                 <h2>Login</h2>
                 <form class="space-y-6" action="/login" method="post">
                     @csrf
-                    <div>
-                        <label for="email" class="block font-medium text-gray-900 text-sm/6">User name</label>
+                    <label for="email" class="block font-medium text-gray-900 text-sm/6">User name</label>
+                    <div class="mt-2">
+                        <input name="loginname" type="text" placeholder="name"
+                            class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
+                    </div>
+                    <div class="mt-6">
+                        <div>
+                            <label for="password" class="block font-medium text-gray-900 text-sm/6">Password</label>
+                        </div>
                         <div class="mt-2">
-                            <input name="loginname" type="text" placeholder="name"
+                            <input name="loginpassword" type="password" placeholder="password"
                                 class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
                         </div>
-                        <div class="mt-6">
-                            <div>
-                                <label for="password" class="block font-medium text-gray-900 text-sm/6">Password</label>
-                            </div>
-                            <div class="mt-2">
-                                <input name="loginpassword" type="password" placeholder="password"
-                                    class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
-                            </div>
-                        </div>
-                        <div>
-                            <button
-                                class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Log
-                                in</button>
-                        </div>
+                    </div>
+                    <div>
+                        <button
+                            class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Log
+                            in</button>
                     </div>
                 </form>
             </div>
