@@ -38,7 +38,7 @@
                             <label for="post" class="block font-medium text-gray-900 text-sm/6">Post</label>
                             <div class="mt-2">
                                 <textarea name="body" rows="3" placeholder="content"
-                                    class="block w-full resize-none bg-transparent outline-gray-300 px-3 py-1.5 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"></textarea>
+                                    class="block w-full border border-y-inherit rounded-md resize-none bg-transparent outline-gray-300 px-3 py-1.5 text-base text-gray-900 placeholder:text-gray-400 focus:outline focus:outline-0 sm:text-sm/6"></textarea>
                             </div>
                         </div>
                         <div>
@@ -49,19 +49,27 @@
                     </form>
                 </div>
             </div>
-            <div class="border-2 border-indigo-500"
-                style="display: flex; flex-direction:column; justify-content: center; align-items: center;">
-                <h2>Posts</h2>
-                @foreach ($posts as $post)
-                    <div>
-                        <h3>{{ $post->title }}</h3>
-                        <p>{{ $post->body }}</p>
-                        {{-- <form action="/delete-post/{{ $post->id }}" method="post">
+            <div class="py-24 bg-white sm:py-32">
+                <div class="px-6 mx-auto max-w-7xl lg:px-8">
+                    <div class="max-w-2xl mx-auto">
+                        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Post</h2>
+                        <div class="pt-10 mt-10 space-y-16 border-t border-gray-200 sm:mt-16 sm:pt-16">
+                            <article class="flex flex-col items-start justify-between max-w-xl">
+                                @foreach ($posts as $post)
+                                    <div class="relative group">
+                                        <h3 class="mt-3 font-semibold text-gray-900 text-lg/6 group-hover:text-gray-600">
+                                            {{ $post->title }}</h3>
+                                        <p class="mt-5 text-gray-600 line-clamp-3 text-sm/6">{{ $post->body }}</p>
+                                        {{-- <form action="/delete-post/{{ $post->id }}" method="post">
                         @csrf
                         <button>Delete post</button>
                     </form> --}}
+                                    </div>
+                                @endforeach
+                            </article>
+                        </div>
                     </div>
-                @endforeach
+                </div>
             </div>
         @else
             <div class="sm:mx-auto sm:w-full sm:max-w-sm">
