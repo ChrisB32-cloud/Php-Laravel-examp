@@ -721,6 +721,133 @@
 
         </div>
     </div>
+
+    {{-- Cards prototype --}}
+
+    <div class="py-16 mb-16">
+        <div class="py-24 bg-white sm:py-32">
+            <div class="px-6 mx-auto max-w-7xl lg:px-8">
+                <div
+                    class="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-16 auto-rows-fr sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                    <article
+                        class="relative flex flex-col justify-end px-8 pb-8 overflow-hidden bg-gray-900 isolate rounded-2xl pt-80 sm:pt-48 lg:pt-80">
+                        <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80"
+                            alt="" class="absolute inset-0 object-cover -z-10 size-full">
+                        <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                        <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+
+                        <div class="h-32"> <!-- Fixed height container for title -->
+                            <h3 class="mb-4 font-semibold text-white text-lg/6">
+                                Visit Us
+                            </h3>
+                            <p class="text-white">Discover what Montgomery County has to explore. Check out our local
+                                attractions and plan your stay
+                            </p>
+                        </div>
+                        <a href="#" class="inline-flex items-center mt-3 text-white gap-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            </svg>
+                            Find info here
+                        </a>
+                    </article>
+                    <article
+                        class="relative flex flex-col justify-end px-8 pb-8 overflow-hidden bg-gray-900 isolate rounded-2xl pt-80 sm:pt-48 lg:pt-80">
+                        <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80"
+                            alt="" class="absolute inset-0 object-cover -z-10 size-full">
+                        <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                        <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+
+                        <div class="h-32"> <!-- Fixed height container for title -->
+                            <h3 class="mb-4 font-semibold text-white text-lg/6">
+                                County News
+                            </h3>
+                            <p class="text-white">Found out more with county news</p>
+                        </div>
+                    </article>
+                    <article
+                        class="relative flex flex-col justify-end px-8 pb-8 overflow-hidden bg-gray-900 isolate rounded-2xl pt-80 sm:pt-48 lg:pt-80">
+                        <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80"
+                            alt="" class="absolute inset-0 object-cover -z-10 size-full">
+                        <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                        <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+
+                        <div class="h-32"> <!-- Fixed height container for title -->
+                            <h3 class="mb-4 font-semibold text-white text-lg/6">
+                                Join our team
+                            </h3>
+                            <p class="text-white">Apply here for jobs with Montgomery County</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Cards less rounded varient --}}
+    <div class="py-16 mb-16">
+        <div class="py-24 bg-white sm:py-32">
+            <div class="px-6 mx-auto max-w-7xl lg:px-8">
+                <div
+                    class="grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-16 auto-rows-fr sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                    <article
+                        class="relative flex flex-col justify-end px-8 pb-8 overflow-hidden bg-gray-900 rounded-lg isolate pt-80 sm:pt-48 lg:pt-80">
+                        <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80"
+                            alt="" class="absolute inset-0 object-cover -z-10 size-full">
+                        <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                        <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+
+                        <div class="h-32"> <!-- Fixed height container for title -->
+                            <h3 class="mb-4 font-semibold text-white text-lg/6">
+                                Visit Us
+                            </h3>
+                            <p class="text-white">Discover what Montgomery County has to explore. Check out our local
+                                attractions and plan your stay
+                            </p>
+                        </div>
+                        <a href="#" class="inline-flex items-center mt-3 text-white gap-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
+                            </svg>
+                            Find info here
+                        </a>
+                    </article>
+                    <article
+                        class="relative flex flex-col justify-end px-8 pb-8 overflow-hidden bg-gray-900 rounded-lg isolate pt-80 sm:pt-48 lg:pt-80">
+                        <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80"
+                            alt="" class="absolute inset-0 object-cover -z-10 size-full">
+                        <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                        <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+
+                        <div class="h-32"> <!-- Fixed height container for title -->
+                            <h3 class="mb-4 font-semibold text-white text-lg/6">
+                                County News
+                            </h3>
+                            <p class="text-white">Found out more with county news</p>
+                        </div>
+                    </article>
+                    <article
+                        class="relative flex flex-col justify-end px-8 pb-8 overflow-hidden bg-gray-900 rounded-lg isolate pt-80 sm:pt-48 lg:pt-80">
+                        <img src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80"
+                            alt="" class="absolute inset-0 object-cover -z-10 size-full">
+                        <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+                        <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+
+                        <div class="h-32"> <!-- Fixed height container for title -->
+                            <h3 class="mb-4 font-semibold text-white text-lg/6">
+                                Join our team
+                            </h3>
+                            <p class="text-white">Apply here for jobs with Montgomery County</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
