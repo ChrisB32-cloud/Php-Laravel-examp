@@ -134,9 +134,143 @@
                 </form>
             </div>
         @endauth
+    </div>
 
+    {{-- table ui --}}
+    <div class="py-16 mb-16">
+        <div
+            class="flex flex-col justify-center px-6 py-6 mt-10 border rounded-md lg:px-8 sm:mx-auto sm:w-full sm:max-w-sm lg:max-w-3xl">
+            <h3 class="text-xl">Department Alerts</h3>
+            <ul role="list" class="divide-y divide-gray-100">
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+                            <p
+                                class="mt-0.5 whitespace-nowrap rounded-md bg-red-50 px-1.5 py-0.5 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/20">
+                                ! Important</p>
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-03-17T00:00Z">March 17,
+                                    2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Leslie Alexander</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">View
+                        </a>
 
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+                            <p
+                                class="mt-0.5 whitespace-nowrap rounded-md bg-green-50 px-1.5 py-0.5 text-xs font-medium text-green-600 ring-1 ring-inset ring-green-500/10">
+                                Review</p>
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-05-05T00:00Z">May 5, 2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Leslie Alexander</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">View
+                        </a>
 
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+                            <p
+                                class="mt-0.5 whitespace-nowrap rounded-md bg-green-50 px-1.5 py-0.5 text-xs font-medium text-green-600 ring-1 ring-inset ring-green-500/10">
+                                Review</p>
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-05-25T00:00Z">May 25, 2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Courtney Henry</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+                            <p
+                                class="mt-0.5 whitespace-nowrap rounded-md bg-green-50 px-1.5 py-0.5 text-xs font-medium text-green-600 ring-1 ring-inset ring-green-500/10">
+                                Review</p>
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-06-07T00:00Z">June 7, 2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Leonard Krasner</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">View
+                            <span class="sr-only">, iOS app</span></a>
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+                            <p
+                                class="mt-0.5 whitespace-nowrap rounded-md bg-yellow-50 px-1.5 py-0.5 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">
+                                Archived</p>
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-06-10T00:00Z">June 10,
+                                    2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Courtney Henry</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+            </ul>
+
+        </div>
     </div>
 </body>
 
