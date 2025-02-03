@@ -272,6 +272,455 @@
 
         </div>
     </div>
+
+    {{-- Table UI varient 2 --}}
+    <div class="py-16 mb-16">
+        <div
+            class="flex flex-col justify-center px-6 py-6 mt-10 border rounded-md lg:px-8 sm:mx-auto sm:w-full sm:max-w-sm lg:max-w-3xl">
+            <h3 class="text-xl">Department Alerts</h3>
+            <ul role="list" class="divide-y divide-gray-100">
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-red-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
+                                </svg>
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-03-17T00:00Z">March 17,
+                                    2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Leslie Alexander</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-red-700 ">
+
+
+                        </div>
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-green-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-05-05T00:00Z">May 5, 2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Leslie Alexander</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-green-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-05-25T00:00Z">May 25, 2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Courtney Henry</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-blue-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-06-07T00:00Z">June 7, 2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Leonard Krasner</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-blue-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-06-10T00:00Z">June 10,
+                                    2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Courtney Henry</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    {{-- Table UI varient 2 with vetical scrolling --}}
+    <div class="py-16 mb-16">
+        <div
+            class="flex flex-col justify-center px-6 py-6 mt-10 border rounded-md max-h-96 lg:px-8 sm:mx-auto sm:w-full sm:max-w-sm lg:max-w-3xl">
+            <h3 class="pb-1 text-xl">Department Alerts</h3>
+            <ul role="list" class="overflow-y-scroll divide-y divide-gray-100 max-h-96 ">
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-red-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
+                                </svg>
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-03-17T00:00Z">March 17,
+                                    2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Leslie Alexander</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-red-700 ">
+
+
+                        </div>
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-green-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-05-05T00:00Z">May 5, 2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Leslie Alexander</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-green-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-05-25T00:00Z">May 25, 2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Courtney Henry</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-blue-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-06-07T00:00Z">June 7, 2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Leonard Krasner</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-blue-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-06-10T00:00Z">June 10,
+                                    2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Courtney Henry</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-blue-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-06-10T00:00Z">June 10,
+                                    2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Courtney Henry</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-blue-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-06-10T00:00Z">June 10,
+                                    2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Courtney Henry</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+                <li class="flex items-center justify-between py-5 gap-x-6">
+                    <div class="min-w-0">
+                        <div class="flex items-start gap-x-3">
+                            <div class=" m-auto pr-1 py-0.5 text-xs font-medium text-blue-700 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
+                                </svg>
+
+
+                            </div>
+                            <p class="font-semibold text-gray-900 text-sm/6">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do...</p>
+
+                        </div>
+                        <div class="flex items-center mt-1 text-gray-500 gap-x-2 text-xs/5">
+                            <p class="whitespace-nowrap"><time datetime="2023-06-10T00:00Z">June 10,
+                                    2023</time>
+                            </p>
+                            <svg viewBox="0 0 2 2" class="size-0.5 fill-current">
+                                <circle cx="1" cy="1" r="1" />
+                            </svg>
+                            <p class="truncate">Courtney Henry</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center flex-none gap-x-4">
+                        <a href="#"
+                            class="hidden px-2.5 py-1.5 text-sm font-semibold text-gray-600  ring-gray-300 hover:text-gray-900 sm:block">View
+                        </a>
+
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
 </body>
 
 </html>
